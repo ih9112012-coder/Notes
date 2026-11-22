@@ -1,0 +1,70 @@
+<resources>
+    <!-- Application Info -->
+    <string name="app_name">Notes Storage</string>
+
+    <!-- Screen Titles -->
+    <string name="title_notes_list">Notes Storage</string>
+    <string name="title_create_note">New Note</string>
+    <string name="title_edit_note">Edit Note</string>
+
+    <!-- Storage Labels -->
+    <string name="storage_sqlite">SQLite (Primary)</string>
+    <string name="storage_json">JSON File (Secondary)</string>
+    <string name="storage_sqlite_badge">SQLite</string>
+    <string name="storage_json_badge">JSON</string>
+    <string name="storage_active_label">Active Storage: %1$s</string>
+    <string name="storage_saving_to">Saving into: %1$s</string>
+    <string name="notes_count_format">%1$d note(s)</string>
+
+    <!-- Form Inputs & Hints -->
+    <string name="hint_note_title">Note Title</string>
+    <string name="hint_note_content">Note Content</string>
+
+    <!-- Validation Errors (Requirement 6) -->
+    <string name="error_title_empty">Title cannot be empty</string>
+    <string name="error_content_empty">Content cannot be empty</string>
+    <string name="error_validation_failed">Please fill in both title and content to save the note.</string>
+
+    <!-- Action Buttons & Menus -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_sync">Synchronize</string>
+    <string name="action_delete_all">Delete All</string>
+    <string name="action_search">Search notes</string>
+    <string name="action_add_note">Add Note</string>
+
+    <!-- Empty State -->
+    <string name="empty_notes_title">No Notes Found</string>
+    <string name="empty_notes_subtitle">No notes in %1$s. Tap the \'+\' button below to create one, or tap Synchronize to pull notes from another storage.</string>
+
+    <!-- Confirmations & Dialogs -->
+    <string name="dialog_delete_note_title">Delete Note</string>
+    <string name="dialog_delete_note_message">Are you sure you want to delete note "%1$s" from %2$s?</string>
+    <string name="dialog_delete_all_title">Delete All Notes</string>
+    <string name="dialog_delete_all_message">Are you sure you want to permanently delete all notes from %1$s?</string>
+    <string name="dialog_confirm">Delete</string>
+    <string name="dialog_dismiss">Cancel</string>
+
+    <!-- Toast & Feedback Messages -->
+    <string name="toast_note_saved">Note saved successfully to %1$s</string>
+    <string name="toast_note_updated">Note updated in %1$s</string>
+    <string name="toast_note_deleted">Note deleted from %1$s</string>
+    <string name="toast_all_deleted">All notes deleted from %1$s</string>
+    <string name="toast_storage_switched">Switched storage to %1$s</string>
+    <string name="sync_in_progress">Synchronizing notes in background…</string>
+    <string name="error_saving_failed">Failed to save note. Please try again.</string>
+
+    <!-- Synchronization Feedback (Requirement 5) -->
+    <string name="sync_dialog_title">Storage Synchronization</string>
+    <string name="sync_success_summary">Synchronization complete!\n\n• Added to SQLite: %1$d\n• Added to JSON: %2$d\n• Updated in SQLite: %3$d\n• Updated in JSON: %4$d\n• Already in sync: %5$d</string>
+    <string name="sync_no_changes">Both SQLite and JSON storage are already fully synchronized.</string>
+    <string name="sync_ok_button">Close</string>
+
+    <!-- Content Descriptions for Accessibility -->
+    <string name="cd_sync_notes">Synchronize primary and secondary storage</string>
+    <string name="cd_add_note">Create a new note</string>
+    <string name="cd_delete_note">Delete this note</string>
+    <string name="cd_storage_badge">Storage location badge</string>
+    <string name="cd_empty_notes">Empty notes icon</string>
+</resources>
